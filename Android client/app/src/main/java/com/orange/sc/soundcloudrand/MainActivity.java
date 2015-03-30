@@ -2,6 +2,7 @@ package com.orange.sc.soundcloudrand;
 
 import android.content.Context;
 import android.os.AsyncTask;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,9 +30,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 
-public class MainActivity extends ActionBarActivity {
-
-
+public class MainActivity extends FragmentActivity {
 
     public ApiWrapper apiWrapper;
     public Request resource;
